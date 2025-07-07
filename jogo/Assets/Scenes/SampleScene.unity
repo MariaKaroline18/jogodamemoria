@@ -353,6 +353,7 @@ GameObject:
   - component: {fileID: 261936000}
   - component: {fileID: 261935999}
   - component: {fileID: 261935998}
+  - component: {fileID: 261936001}
   m_Layer: 5
   m_Name: Carta 8
   m_TagString: Untagged
@@ -462,6 +463,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 261935996}
   m_CullTransparentMesh: 1
+--- !u!114 &261936001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261935996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 563b7276a0616834993c1a9eddbccc55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  frente: {fileID: 217319896}
+  frenteImage: {fileID: 1761948072}
 --- !u!1 &390422730
 GameObject:
   m_ObjectHideFlags: 0
@@ -471,6 +487,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 390422731}
+  - component: {fileID: 390422732}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -493,6 +510,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &390422732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 390422730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c0a304be34f3c74d9eedf022982c358, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textoJogador1: {fileID: 2027781033}
+  textoJogador2: {fileID: 1491820556}
+  imagensCartas:
+  - {fileID: -9156979464244988438, guid: d011b6af7f4f1f84bb99c23a08c6ba1c, type: 3}
+  - {fileID: -4373452419000467825, guid: 2422951a787c33c40b801a22c1a8cc7b, type: 3}
+  - {fileID: 5406283706280314668, guid: b13ee390fea2e1342967b464d4d22944, type: 3}
+  - {fileID: 7366872488433124133, guid: bfc81ef6ad582b14e94567158f5b018a, type: 3}
+  gridContainer: {fileID: 776457837}
+  telaVitoria: {fileID: 1062951423}
+  textoVitoria: {fileID: 2016230552}
 --- !u!1 &431970705
 GameObject:
   m_ObjectHideFlags: 0
@@ -655,6 +694,7 @@ GameObject:
   - component: {fileID: 488797701}
   - component: {fileID: 488797700}
   - component: {fileID: 488797699}
+  - component: {fileID: 488797702}
   m_Layer: 5
   m_Name: Carta 6
   m_TagString: Untagged
@@ -764,6 +804,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 488797697}
   m_CullTransparentMesh: 1
+--- !u!114 &488797702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 488797697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 563b7276a0616834993c1a9eddbccc55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  frente: {fileID: 2044434196}
+  frenteImage: {fileID: 431970707}
 --- !u!1 &497526310
 GameObject:
   m_ObjectHideFlags: 0
@@ -1034,6 +1089,7 @@ GameObject:
   - component: {fileID: 541098807}
   - component: {fileID: 541098806}
   - component: {fileID: 541098805}
+  - component: {fileID: 541098808}
   m_Layer: 5
   m_Name: Carta 5
   m_TagString: Untagged
@@ -1143,6 +1199,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 541098803}
   m_CullTransparentMesh: 1
+--- !u!114 &541098808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 541098803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 563b7276a0616834993c1a9eddbccc55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  frente: {fileID: 84330416}
+  frenteImage: {fileID: 1712748852}
 --- !u!1 &567853543
 GameObject:
   m_ObjectHideFlags: 0
@@ -1858,6 +1929,7 @@ GameObject:
   - component: {fileID: 1112600377}
   - component: {fileID: 1112600376}
   - component: {fileID: 1112600375}
+  - component: {fileID: 1112600378}
   m_Layer: 5
   m_Name: Carta 2
   m_TagString: Untagged
@@ -1967,6 +2039,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1112600373}
   m_CullTransparentMesh: 1
+--- !u!114 &1112600378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112600373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 563b7276a0616834993c1a9eddbccc55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  frente: {fileID: 652196007}
+  frenteImage: {fileID: 1359783630}
 --- !u!1 &1214135257
 GameObject:
   m_ObjectHideFlags: 0
@@ -1979,6 +2066,7 @@ GameObject:
   - component: {fileID: 1214135261}
   - component: {fileID: 1214135260}
   - component: {fileID: 1214135259}
+  - component: {fileID: 1214135262}
   m_Layer: 5
   m_Name: Carta 4
   m_TagString: Untagged
@@ -2088,6 +2176,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1214135257}
   m_CullTransparentMesh: 1
+--- !u!114 &1214135262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214135257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 563b7276a0616834993c1a9eddbccc55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  frente: {fileID: 2077640788}
+  frenteImage: {fileID: 777812806}
 --- !u!1 &1359783628
 GameObject:
   m_ObjectHideFlags: 0
@@ -2422,6 +2525,7 @@ GameObject:
   - component: {fileID: 1756748020}
   - component: {fileID: 1756748019}
   - component: {fileID: 1756748018}
+  - component: {fileID: 1756748021}
   m_Layer: 5
   m_Name: Carta 3
   m_TagString: Untagged
@@ -2531,6 +2635,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1756748016}
   m_CullTransparentMesh: 1
+--- !u!114 &1756748021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1756748016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 563b7276a0616834993c1a9eddbccc55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  frente: {fileID: 568897649}
+  frenteImage: {fileID: 1822646524}
 --- !u!1 &1761948070
 GameObject:
   m_ObjectHideFlags: 0
@@ -2618,6 +2737,7 @@ GameObject:
   - component: {fileID: 1798028671}
   - component: {fileID: 1798028670}
   - component: {fileID: 1798028669}
+  - component: {fileID: 1798028672}
   m_Layer: 5
   m_Name: Carta 1
   m_TagString: Untagged
@@ -2727,6 +2847,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1798028667}
   m_CullTransparentMesh: 1
+--- !u!114 &1798028672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1798028667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 563b7276a0616834993c1a9eddbccc55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  frente: {fileID: 820650305}
+  frenteImage: {fileID: 82107865}
 --- !u!1 &1822646522
 GameObject:
   m_ObjectHideFlags: 0
@@ -2814,6 +2949,7 @@ GameObject:
   - component: {fileID: 1892774856}
   - component: {fileID: 1892774855}
   - component: {fileID: 1892774854}
+  - component: {fileID: 1892774857}
   m_Layer: 5
   m_Name: Carta 7
   m_TagString: Untagged
@@ -2923,6 +3059,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1892774852}
   m_CullTransparentMesh: 1
+--- !u!114 &1892774857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1892774852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 563b7276a0616834993c1a9eddbccc55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  frente: {fileID: 1556548429}
+  frenteImage: {fileID: 470778221}
 --- !u!1 &2016230550
 GameObject:
   m_ObjectHideFlags: 0
